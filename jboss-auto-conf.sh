@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# jboss-auto-config(JAC)
+
 # 一个JBOSS切换配置文件工具
 # @author kession
 # @github https://github.com/kession
@@ -12,11 +14,12 @@
 JBOSS_HOME="/home/kession/softs/jboss-4.2.2.GA"
 
 # svn分支工程目录，可以多个，用于mvn install
-WORKSPACE=("/home/kession/workspace/Tanx/tanx-crm/RB_tanx_adfilter_1_20130911_0923/tanx-crm-webapp" 
-	"/home/kession/workspace/Tanx/tanx-crm/RB_tanx_adfilter_1_20130911_0923/tanx-crm-webapp")
+WORKSPACE=("/home/kession/workspace/test1/test1-webapp" 
+	"/home/kession/workspace/test1/test2-webapp")
 
 # war包路径，用于生成模板配置文件
-WAR=("/home/kession/workspace/Tanx/tanx-crm/RB_tanx_adfilter_1_20130911_0923/tanx-crm-webapp/target/tanx-crm.war" )
+WAR=("/home/kession/workspace/test1/test1-webapp/target/tanx-crm.war" 
+"/home/kession/workspace/test1/test2-webapp/target/tanx-crm.war" )
 
 # ------------------------------------------设置相关配置结束--------------------------------------------------
 
